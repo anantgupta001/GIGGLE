@@ -25,6 +25,3 @@ If you're interested in contributing to our code, refer the <a href="url">contri
 </ul>
 <h2><img src="https://cdn-icons-png.flaticon.com/512/1053/1053571.png?w=740&t=st=1676138749~exp=1676139349~hmac=3e28506869cb347f390cdd860dc3c44bce9806a100561acb590ba60e7267718d" alt="Links" width="25" height="25"/> License</h2>
 <div></div>
-
-
-
