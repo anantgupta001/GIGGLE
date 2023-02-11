@@ -10,7 +10,7 @@ This website is currently in development and has not yet been deployed.
 
 <h2><img src="https://cdn-icons-png.flaticon.com/512/901/901418.png?w=740&t=st=1676136739~exp=1676137339~hmac=6aeebdc94b84a66cc99ba9a98d565bb00e2eac11be468bb13b6a27af62545dc2" alt="Links" width="35" height="35"/>Contributing</h2>
 <div></div>
-Anyone and everyone is welcome to contribute. Please take a moment to review our <a href="https://github.com/AnantGupta001/GSC/blob/main/CODE_OF_CONDUCT.md">code of conduct</a> and <a href="https://github.com/AnantGupta001/GSC/blob/main/contributing%20guidlines">contributing guidlines</a>.
+Anyone and everyone is welcome to contribute. Please take a moment to review our <a href="https://github.com/AnantGupta001/GSC/blob/main/CODE_OF_CONDUCT.md">code of conduct</a> and <a href="https://github.com/AnantGupta001/GSC/blob/main/contributing%20guidlines.md">contributing guidelines</a>.
 <ul>
 <h3><img src="https://cdn-icons-png.flaticon.com/512/817/817814.png?w=740&t=st=1676136926~exp=1676137526~hmac=62da55a65ccb36498f84c3f40faae096b4ba76dbb7917cdc963830beb283ecef" alt="Links" width="20" height="20"/> Issues</h3>
 If you've caught a bug or you'd like a new feature to be added, feel free to open an issue so that the same can be discussed.
