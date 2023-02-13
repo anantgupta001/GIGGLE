@@ -15,5 +15,23 @@ Topic 1:Quality Education x Health and Mental Well-being
     Idea 2:Website that will offer: 1.Personalized learning path based on user's background, experience and goals. 2.Provide a platform to users to connect with each other, form study groups and share resourses. 3.Allow users to keep track of their progress and set goals. 4.Foster a community-driven environment where users can share their knowledge and experiences with others. // Sahil 
     Idea 3:
     
-Topic 2:
-    
+Topic 2: Peace, Justice and Strong Institutions
+   Focus: Target 16.2: Protect children from abuse, exploitation, trafficking and violence
+   Working:
+        Let's assume that you see a child walking down the street, completely malnourished, shows signs of being abused (i.e physical injuries), paranoid, works long           or excessive hours or is always available “on demand.” All you have to do is snap a picture of him/her and upload it on <app name/website name> along with the         area pincode,state, signs of abuse, estimated age of child. This data will be sent directly to NATIONAL HUMAN RIGHTS COMMISSION, INDIA 
+        (website: https://hrcnet.nic.in/HRCNet/public/webcomplaint.aspx). The person would then get an otp on their mobile phone that they would have to enter within a         certain time period so as to submit the incident.
+        
+        People can view their complain status by clicking on "check file status", this will redirect the person to the following webpage:                         
+        "https://www.hrcnet.nic.in/HRCNet/public/SearchComplaint.aspx" where they would have to fill in the details to check the status.
+        
+        Note: This idea may need some imporvements for smooth or better functioning, so any changes are more than welcome but the changes are to be mentioned in       
+        brackets along with the name of the person who updated it.
+   
+   
+  Requiremnts:
+        1. Front-end developer
+        2. People familiar with client-side storage like Web storage API (a back-end team would suffice)
+        
+        //CHIRAG JAIN
+        
+ Topic 3:
