@@ -1,6 +1,6 @@
-<h2><img src="https://cdn-icons-png.flaticon.com/512/972/972221.png?w=740&t=st=1676139019~exp=1676139619~hmac=49af20144ae90b8f7d5078207107a1bed7ffdef2a04cf20450e3e9ec6a92fda5" alt="GSC" width="35" height="35"/><b> GSC - QUALITY EDUCATION</b></h2>
+<h2><img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGUzY2U4YTdmODJhZWU1YzA5NGMwYzM1OGZkNmFlMTIzZGMzYjAzZSZjdD1z/VWoY45HAlzD6K6nWsD/giphy.gif" alt="GSC" width="85" height="65"/><b> GSC - GENDER EQUALITY</b></h2>
 <div></div>
-A self-mentored website for quality education could be designed to facilitate interactions between teachers and students in a variety of ways.
+WE Giggle is a non-profit organization dedicated to empowering women and helping them reach their full potential. Our programs and services are designed to provide women with the tools and resources they need to succeed in all aspects of their lives.
 
 <br></br>
 
