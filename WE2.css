@@ -1,0 +1,185 @@
+/* Global styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("Ipson_women_empowerment_aesthetic_yellow_pink_red_and_orange_th_cc1d0cba-c1fb-4a99-9c05-60e687acaf27.png");
+    background: linear-gradient(
+      rgb(251, 253, 254,0.9),
+      rgb(255, 238, 238,0.3)
+    );
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #fff;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  nav a:hover {
+    color: #000;
+    border-style: 1px solid #000;
+    text-shadow: #ffa6a6;
+    font-size: larger;
+  }
+  
+  .logo img {
+    height: 50px;
+    width: auto;
+  }
+  
+  /* Hero section styles */
+  #hero {
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    text-align: center;
+  }
+  
+  #hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  #hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  #hero button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  #hero button:hover {
+    background-color: #333;
+  }
+  
+  /* Services section styles */
+  #services {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  #services h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .edit {
+    background-color: #f2f2f2;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  .edit:hover {
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.2);
+  }
+  
+  .edit h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .edit p {
+    font-size: 16px;
+  }
+  
+  /* About section styles */
+  #about {
+    background-color: #f7f7f7;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  #about h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  
+  #about p {
+    font-size: 16px;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+  }
+  input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 4px;
+    background-color: #ffa6a6;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: progress ;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
