@@ -3,10 +3,7 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-image: url("Ipson_women_empowerment_aesthetic_yellow_pink_red_and_orange_th_cc1d0cba-c1fb-4a99-9c05-60e687acaf27.png");
-    background: linear-gradient(
-      rgb(251, 253, 254,0.9),
-      rgb(255, 238, 238,0.3)
-    );
+    background-color:#FFCEFE;
   }
   
   /* Header styles */
@@ -150,10 +147,11 @@ body {
   
   /* Footer styles */
   footer {
-    background-color: #333;
+    background-color: #191825;
     color: #fff;
     text-align: center;
     padding: 20px;
+    padding-bottom:2px;
     margin-top: 50px;
   }
   input[type="text"], input[type="email"], textarea {
