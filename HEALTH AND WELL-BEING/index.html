@@ -5,218 +5,16 @@
     <title>Health</title>
     <link rel="icon" type="image/x-icon" href="Images/16x16 giggle and bg-02.png">
     <link rel="stylesheet" href="CSS/bootstrap.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="CSS/health.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap" rel="stylesheet">
-    <style>
-
-      .period-btn {
-      display: inline-block;
-      border-radius: 4px;
-      background-color: #D61355;
-      border: none;
-      text-align: center;
-      font-size: 17px;
-      padding: 16px;
-      position:absolute;
-      width: 180px;
-      transition: all 0.5s;
-      cursor: pointer;
-      margin: 15% 62%;
-      }
-
-      .period-btn span {
-      color:#FFC3A1;
-      cursor: pointer;
-      display: inline-block;
-      position: relative;
-      transition: 0.5s;
-      }
-
-      .period-btn span:after {
-      content: '»';
-      position: absolute;
-      opacity: 0;
-      top: -1.5px;
-      right: -15px;
-      transition: 0.5s;
-      }
-
-      .period-btn:hover span {
-      
-      padding-right: 15px;
-      }
-
-      .period-btn:hover span:after {
-      opacity: 1.5;
-      right: 0; 
-      }
-
-      .sex-ed-btn{
-        display: inline-block;
-        border-radius: 4px;
-        background-color: #D61355;
-        border: none;
-        text-align: center;
-        font-size: 17px;
-        padding: 16px;
-        position:absolute;
-        width: 250px;
-        transition: all 0.5s;
-        cursor: pointer;
-        margin: 15% 80%;
-      }
-      .sex-ed-btn span {
-      color:#FFC3A1;
-      cursor: pointer;
-      display: inline-block;
-      position: relative;
-      transition: 0.5s;
-      }
-
-      .sex-ed-btn span:after {
-      content: '»';
-      position: absolute;
-      opacity: 0;
-      top: -1.5px;
-      right: -15px;
-      transition: 0.5s;
-      }
-
-      .sex-ed-btn:hover span {
-      
-      padding-right: 20px;
-      }
-
-      .sex-ed-btn:hover span:after {
-      opacity: 1.5;
-      right:0;
-      }
-      .psy-dis-btn{
-        display: inline-block;
-        border-radius: 4px;
-        background-color: #D61355;
-        border: none;
-        text-align: center;
-        font-size: 17px;
-        padding: 16px;
-        position:absolute;
-        width: 250px;
-        transition: all 0.5s;
-        cursor: pointer;
-        margin: 60% 140%;
-      }
-      .psy-dis-btn span {
-      color:#FFC3A1;
-      cursor: pointer;
-      display: inline-block;
-      position: relative;
-      transition: 0.5s;
-      }
-
-      .psy-dis-btn span:after {
-      content: '»';
-      position: absolute;
-      opacity: 0;
-      top: -1.5px;
-      right: -15px;
-      transition: 0.5s;
-      }
-
-      .psy-dis-btn:hover span {
-      
-      padding-right: 20px;
-      }
-
-      .psy-dis-btn:hover span:after {
-      opacity: 1.5;
-      right:0;
-      }
-
-      .Intro{
-        position:relative;
-      }
-      .Health-page-header{
-        font-family: 'Rouge Script', cursive;
-        font-size:80px;
-        margin-top:-22%;
-        margin-left:30%;
-        padding-left:80px;
-        position:absolute;
-      }
-      .Health-intro-p1{
-        display:inline-block;
-        font-size:18px;
-        margin: -15% 19%;
-        position:absolute;
-        text-align:justify;
-        width:700px;
-      }
-      .Health-intro-p2{
-        display:inline-block;
-        font-size:18px;
-        margin:-8% 19%;
-        position:absolute;
-        text-align:justify;
-        width:700px;
-
-      }
-      .Health-intro-image{
-        position:absolute;
-        margin:-19% 55%;
-        float: right;
-        
-      }
-      .period{
-        margin-top:25%;
-        padding-bottom:40px;
-      }
-      .period-image{
-        height:380px;
-        margin: 2% 18%;
-        position:absolute;
-      }
-      .period-p1{
-        font-size: 18px;
-        margin:5% 45%;
-        position:absolute;
-        text-align:justify;
-        width:700px;
-      }
-      .psy-dis{
-        position:absolute;
-        margin-top:45%;
-      }
-      .psy-dis-p1{
-        font-size:18px;
-        margin:-50% 109%;
-        text-align:justify;
-        width:700px;
-      }
-      .psy-dis-image{
-        margin:-14% 35%;
-
-      }
-      .Sexual-ed{
-        display:inline-block;
-        position:absolute;
-        margin-top:30%;
-      }
-      .sex-ed-p1{
-        font-size:18px;
-        margin:-10% 45%;
-        text-align:justify;
-        width:700px;
-      }
-      .sex-ed-image{
-        position:absolute;
-        height:380px;
-        margin:-20% 140%;
-      }
-    
-    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+   
 </head>
-<body  style="background-color:#FFCEFE">
+<body>
     <nav class="navbar fixed-top navbar-expand-sm" style="background-color:#191825;">
         <div class="container-fluid">
           <ul class="navbar-nav">
@@ -240,58 +38,69 @@
           </ul>
         </div>
       </nav>
-    <div class="Intro">
-      <h1 class="Health-page-header">Health & Well-Being</h1>
-      <p class="Health-intro-p1">
-          Women's health is a complex and multifaceted issue that requires attention and care throughout a woman's life.
-          By staying informed, taking care of their bodies and minds, and seeking medical help when needed, 
-          women can take control of their health and live their best lives.
-      </p>
-      <p class="Health-intro-p2">
-          One key area of women's health is reproductive health. This includes everything from menstruation and contraception to pregnancy and childbirth. 
-          Women should have regular check-ups with their healthcare provider to ensure that their reproductive system is healthy and functioning properly.
-      </p>
-      <div class="Health-intro-image">
-        <img src="Images/women-health.png" alt="">
+      <div class="Health-Header">
+        <h1>Health & Well-Being</h1>
       </div>
-    </div>
-    <div class="period">
-      <img class="period-image" src="Images/blood-drop.png" alt="blood_drop">
-      <p class="period-p1"> Menstruation is a natural and normal bodily process that occur in most women every month. 
-        During a period, the lining of the uterus sheds and is expelled from the body through the vagina. 
-        This typically lasts between 3 to 7 days, although the length and flow of periods can vary from person to person.
-      </p>
-      <button class="period-btn">
-        <a href="#"><span>MENSTRUATION</span></a>
-      </button>
-    </div>
-    <div class="Sexual-ed">
-      <p class="sex-ed-p1">
-        Sex ed is important because it can help individuals make informed decisions about their 
-        sexual health and reduce their risk of unintended pregnancy, STIs, and sexual violence. 
-        It also promotes healthy relationships and helps to break down stigmas surrounding sexuality and gender.
-      </p>
-      <img class="sex-ed-image" src="Images/sexed.png" alt="">
-      <button class="sex-ed-btn">
-        <a href="#"><span>SEXUAL EDUCATION</span></a>
-      </button>
-    </div>
-    <div class="psy-dis">
-      <div class="psy-dis-image" >
-        <img src="Images/psychological-distress.png" alt="Psychological distress">
+      <div class="Health-intro" >
+        <div class="Health-intro-image">
+        <img src="Images/women-health.png" alt="Women-health">
+        </div>
+        <div class="Health-intro-p">
+          <p>
+            Women's health is a complex and multifaceted issue that requires attention and care throughout a woman's life.
+            By staying informed, taking care of their bodies and minds, and seeking medical help when needed, 
+            women can take control of their health and live their best lives.
+        </div>
       </div>
-      <p class="psy-dis-p1">
-        Psychological distress in women is a common and serious 
-        issue that can have a significant impact on a woman's overall well-being.
-        Psychological distress can take many forms, including anxiety, depression,
-        post-traumatic stress disorder (PTSD), and eating disorders, among others.
-      </p>
-      <button class="psy-dis-btn">
-        <a href="index.html">
-          <span>PSYCOLOGICAL DISTRESS</span>
-        </a>
-      </button>
-      
+      <div id="Women-health-subtabs" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="2000">
+            <div>
+              <img class="Carousel-image" src="Images/blood-drop.png" alt="">
+              <p class="Carousel-p">
+                Menstruation is a natural and normal bodily process that occur in most women every month. 
+                During a period, the lining of the uterus sheds and is expelled from the body through the vagina. 
+                This typically lasts between 3 to 7 days, although the length and flow of periods can vary from person to person.
+              </p>
+              <button style="width:200px;margin-left:43%;" class="Carousel-btn">
+                <a href="#"><span>MENSTRUATION</span></a>
+              </button>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <div>
+              <img class="Carousel-image" style="padding-left:32%;" src="Images/sexed.png" alt="Sexualeducation">
+              <p class="Carousel-p">
+                Sex ed is important because it can help individuals make informed decisions about their 
+                sexual health and reduce their risk of unintended pregnancy, STIs, and sexual violence. 
+                It also promotes healthy relationships and helps to break down stigmas surrounding sexuality and gender.
+              </p>
+              <button class="Carousel-btn">
+                <a href="#"><span>SEXUAL EDUCATION</span></a>
+              </button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="Carousel-image" src="Images/psychological-distress.png" alt="Sexualeducation">
+              <p class="Carousel-p">
+                Psychological distress in women is a common and serious 
+                issue that can have a significant impact on a woman's overall well-being.
+                Psychological distress can take many forms, including anxiety, depression,
+                post-traumatic stress disorder (PTSD), and eating disorders, among others.
+              </p>
+              <button style="width:300px;margin-left:40%" class="Carousel-btn">
+                <a href="#"><span>PSYCHOLOGICAL DISTRESS</span></a>
+              </button>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#Women-health-subtabs" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#Women-health-subtabs" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
 
-    </div>
 </html>
