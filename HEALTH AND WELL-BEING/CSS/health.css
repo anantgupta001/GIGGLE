@@ -5,7 +5,11 @@ body{
 }
 h1{
     font-size:5rem;
+    font-family: 'Rouge Script', cursive;
+    margin-top:5%;
+    text-align:center;
 }
+
 
 /*buttons*/
 .Carousel-btn{
@@ -80,7 +84,7 @@ h1{
 }
 /* Subtabs coursel*/
 #Women-health-subtabs{
-    margin:50% -5%;
+    margin:45% -5%;
     position:absolute;
     width:109%;
 }
@@ -95,4 +99,78 @@ h1{
     text-align:justify;
     margin:1% 20%;
     width:60%;
+}
+/*Menstrual cycle*/
+.menstrual-para{
+    font-family:"ubuntu";
+    font-size:1.7em;
+    text-align:justify;
+    margin:5% 10% 0;
+    position:absolute;
+    width:750px;
+
+}
+.menstrual-para2{
+    font-family:"ubuntu",sans-serif;
+    font-size:1.7em;
+    text-align:justify;
+    margin:25% 9.6% 0;
+    position:absolute;
+    width:80%;
+
+}
+.menstrual-para2-items{
+    font-family:"ubuntu",sans-serif;
+    font-size:1.7em;
+    text-align:justify;
+    margin:31% 9.6% 0;
+    position:absolute;
+    width:80%;
+}
+.menstrual-para3{
+    font-family:"ubuntu",sans-serif;
+    font-size:1.7em;
+    text-align:justify;
+    margin:75% 9.6% 0;
+    position:absolute;
+    width:45%;
+}
+/*image*/
+.body-image{
+    width:750px;
+    margin:5% -12% auto;
+    position:absolute;
+    rotate:-19deg;
+}
+.menstrualcycle{
+    margin:1% 15% 0;
+    position:absolute;
+    width:350px;
+    
+}
+.menstruation-calendar{
+    margin:78% 65% 0;
+    position:absolute;
+    width:350px;
+}
+
+@media only screen and (max-width:1125px) {
+    h1{
+        margin-top:7%
+    }
+    .menstrual-para{
+        font-family:"ubuntu";
+        font-size:1.7em;
+        text-align:justify;
+        margin:35% 12% 0;
+        position:absolute;
+        width:750px;
+    
+        
+    }
+    .menstrualcycle{
+        margin:5% -15% 0;
+        width:250px;
+    }
+    
 }
