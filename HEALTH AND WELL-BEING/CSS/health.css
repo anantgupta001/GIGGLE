@@ -54,30 +54,21 @@ h1{
     position:relative;
 }
 .Health-Header{
-    font-family: 'Rouge Script', cursive;
-    margin-top:5%;
-    text-align:center;
+    margin-left:5%
 }
-.Health-page-header{
-    font-family: 'Rouge Script', cursive;
-    font-size:80px;
-    margin-top:-22%;
-    margin-left:30%;
-    padding-left:80px;
-    position:absolute;
-}
+
 .Health-intro{
     position:relative;
 }
 .Health-intro-image{
     position:absolute;
-    padding-left:27%;
+    padding-left:29%;
 }
 .Health-intro-p{
     color:#FEFBE9;
     font-family: 'Ubuntu', 'Sans-serif';
     font-size:30px;
-    margin:25% 23% 0;
+    margin:25% 26% 0;
     position:absolute;
     text-align:Justify;
     width:50%;    
@@ -135,6 +126,73 @@ h1{
     position:absolute;
     width:45%;
 }
+/*pyschological distress*/
+.psy-para{
+    font-family:"ubuntu";
+    font-size:1.7em;
+    text-align:justify;
+    margin:1% 10% 0;
+    position:absolute;
+    width:750px;
+}
+.psy-para2{
+    font-family:"ubuntu",sans-serif;
+    font-size:1.7em;
+    text-align:justify;
+    margin:25% 9.6% 0;
+    position:absolute;
+    width:80%;
+}
+.psy-para2-items{
+    font-family:"ubuntu",sans-serif;
+    font-size:1.7em;
+    text-align:justify;
+    margin:35% 9.6% 0;
+    position:absolute;
+    width:80%;
+}
+/*sexual education*/
+.sex-ed-para{
+    font-family:"ubuntu";
+    font-size:1.7em;
+    text-align:justify;
+    margin:1% 10% 0;
+    position:absolute;
+    width:750px;
+}
+.sex-ed-para2{
+    font-family:"ubuntu",sans-serif;
+    font-size:1.7em;
+    text-align:justify;
+    margin:18% 9.6% 0;
+    position:absolute;
+    width:80%;
+}
+.sex-ed-para2-items{
+    font-family:"ubuntu",sans-serif;
+    font-size:1.7em;
+    text-align:justify;
+    margin:31.5% 9.6% 0;
+    position:absolute;
+    width:80%;
+}
+.sex-ed-para3{
+    font-family:"ubuntu",sans-serif;
+    font-size:1.7em;
+    text-align:justify;
+    margin:80% 9.6% 0;
+    position:absolute;
+    width:80%;
+}
+.sex-ed-para3-items{
+    font-family:"ubuntu",sans-serif;
+    font-size:1.7em;
+    text-align:justify;
+    margin:88% 9.6% 0;
+    padding-bottom:35px;
+    position:absolute;
+    width:80%;
+}
 /*image*/
 .body-image{
     width:750px;
@@ -153,7 +211,20 @@ h1{
     position:absolute;
     width:350px;
 }
+.psy-image{
+    
+    border-radius:50%;
+    margin-left:15%;
+    position:absolute;
+    width:350px;
+}
+.sex-ed-image{
+    border-radius:3%;
+    margin-left:15%;
+    position:absolute;
+    width:350px;
 
+}
 @media only screen and (max-width:1125px) {
     h1{
         margin-top:7%
