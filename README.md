@@ -2,6 +2,11 @@
 
 <h3>WE Giggle is a non-profit organization dedicated to empowering women and helping them reach their full potential. Our programs and services are designed to provide women with the tools and resources they need to succeed in all aspects of their lives.</h3>
 
+<h2>Working-</h2>
+<p>It has very simple working, one just has to open the link then our HOME page will open.
+If one has has a complaint it can be filed by clicking Grievances and the mail will be sent to an NGO working on the respective cause.
+It has Heath and well-being section that provides a wealth of resources, including articles, videos, and podcasts, that cover a range of topics related to sex education. We also offer a community forum where women can connect with each other, ask questions, and share their experiences. Our team of experts is always available to answer questions and provide support.</p>
+
 <br>
 
 <h2><img src="https://cdn-icons-png.flaticon.com/512/1197/1197422.png?w=740&t=st=1676136517~exp=1676137117~hmac=7d3f52efa94a0546ca6f37a284f39fc7474e8a7dd4f599d7cc00b922d46379d1" alt="Links" width="35" height="35"/> Links</h2>
