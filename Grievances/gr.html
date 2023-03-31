@@ -1,0 +1,26 @@
+<html>
+<head><meta charset="utf-8">
+	<title>GRIEVIANCES</title>
+	<link rel="stylesheet" type="text/css" href="gr.css">
+</head>
+<body>
+	<h1>Grievances Form</h1>
+	<form onsubmit="sendEmail(event)">
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name" required>
+
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email" required>
+
+		<label for="phone">Phone:</label>
+		<input type="tel" id="phone" name="phone" required>
+
+		<label for="message">Message:</label>
+		<textarea id="message" name="message" required></textarea>
+
+		<input type="submit" value="Send">
+	</form>
+
+	<script src="gr.js"></script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/bootstrap.css">
+    <link rel="stylesheet" href="WE2.css">
+    <link rel="icon" type="image/x-icon" href="Images/16x16 giggle tabbar.png">
+    <title>Giggle</title>
+</head>
+<body>
+    <nav class="navbar fixed-top navbar-expand-sm" style="background-color:#191825;">
+        <div class="container-fluid">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="Index.html" style="padding-bottom:0"><img src="Images/16x8 giggle navbarlogo.png" alt="Logo"></a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ms-auto" style="font-size:18px">
+            <li class="nav-item">
+              <a class="nav-link" href="home.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">GRIEVIANCES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" onclick="window.location.href='health.html'">HEALTH & WELL-BEING</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    
+    <main>
+        <section id="hero">
+            <h1>Welcome to Giggle</h1>
+            <p>We empower women to reach their full potential</p>
+            <a href="#services"><button>Learn More</button></a>
+        </section>
+      
+        <section id="services">
+            <h2>Elevating women's voices and amplifying their impact</h2>
+            <div class="container">
+                <div class="box-1">
+                    <h3>Health and Well-Being</h3>
+                    <p>Our program offers comprehensive health and sexual education for women of all ages.</p>
+                </div>
+                <div class="box-2">
+                    <h3>Grievances</h3>
+                    <p>We provide a safe space for women to voice their grievances and receive support.</p>
+                </div>
+                <div class="box-3">
+                    <h3>Women in Focus</h3>
+                    <p>We celebrate and highlight the achievements of women in various fields.</p>
+                </div>
+            </div>
+        </section>
+      
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Giggle is a non-profit organization dedicated to empowering women and helping them reach their full potential. Our programs and services are designed to provide women with the tools and resources they need to succeed in all aspects of their lives.</p>
+        </section>
+      
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email"name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer background-color="#191825">
+        <p>&copy;2023 Giggle</p>
+    </footer>
+    </body>
+</html>
