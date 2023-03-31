@@ -1,0 +1,27 @@
+<html>
+<head><meta charset="utf-8">
+	<title>GRIEVIANCES</title>
+	<link rel="stylesheet" type="text/css" href="gr.css">
+    <link rel="icon" type="image/x-icon" href="Images/16x16 giggle tabbar.png">
+</head>
+<body>
+	<h1 style="font-size: xxx-large; text-align: center; color: whitesmoke; text-shadow: 0.5vh 0.5vh 0.5vh #000000;">GRIEVANCES FORM</h1>
+	<form onsubmit="sendEmail(event)">
+		<label for="name" style="color: whitesmoke; text-shadow: 1vh 1vh 2vh #000000;">Name</label>
+		<input type="text" id="name" name="name" required>
+
+		<label for="email" style="color: whitesmoke; text-shadow: 1vh 1vh 2vh #000000;">Email</label>
+		<input type="email" id="email" name="email" required>
+
+		<label for="phone" style="color: whitesmoke; text-shadow: 1vh 1vh 2vh #000000;">Phone</label>
+		<input type="tel" id="phone" name="phone" required>
+
+		<label for="message" style="color: whitesmoke; text-shadow: 1vh 1vh 2vh #000000;">Message</label>
+		<textarea rows="4" cols="50" id="message" name="message" required></textarea>
+
+		<input type="submit" style="color: whitesmoke; text-shadow: 1vh 1vh 2vh #000000;" value="Send">
+	</form>
+
+	<script src="gr.js"></script>
+</body>
+</html>
