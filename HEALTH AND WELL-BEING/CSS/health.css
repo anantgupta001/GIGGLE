@@ -1,247 +1,696 @@
-body{
-    background-color:#E96479;
-    position:relative;
-    
-}
-h1{
-    font-size:5rem;
-    font-family: 'Rouge Script', cursive;
-    margin-top:5%;
-    text-align:center;
-}
 
-
-/*buttons*/
-.Carousel-btn{
-    background-color:#D61355;
-    border:none;
-    border-radius:3px;
-    cursor:pointer;
-    display:inline-block;
-    font-size:17px;
-    margin-left:42%;
-    padding:16px;
-    position:relative;
-    transition: all 0.5s;
-    text-align: center;
-    width:250px;
-}
-.Carousel-btn span{
-    color:#FFC3A1;
-    cursor:pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
-}
-.Carousel-btn span:after{
-    content: '»';
-    position: absolute;
-    opacity: 0;
-    top: -1.5px;
-    right: -15px;
-    transition: 0.5s;
-}
-.Carousel-btn:hover span{
-    padding-right:20px;
-}
-.Carousel-btn:hover span::after{
-    opacity: 1.5;
-    right:0;
-}
-
-
-.Intro{
-    position:relative;
-}
-.Health-Header{
-    margin-left:5%
-}
-
-.Health-intro{
-    position:relative;
-}
-.Health-intro-image{
-    position:absolute;
-    padding-left:29%;
-}
-.Health-intro-p{
-    color:#FEFBE9;
-    font-family: 'Ubuntu', 'Sans-serif';
-    font-size:30px;
-    margin:25% 26% 0;
-    position:absolute;
-    text-align:Justify;
-    width:50%;    
-}
-/* Subtabs coursel*/
-#Women-health-subtabs{
-    margin:45% -5%;
-    position:absolute;
-    width:109%;
-}
-.Carousel-image{
-    padding-left:44%;
-    height:200px;
-}
-.Carousel-p{
-    color:#FEFBE9;
-    font-family: 'Ubuntu', 'Sans-serif';
-    font-size:25px;
-    text-align:justify;
-    margin:1% 20%;
-    width:60%;
-}
-/*Menstrual cycle*/
-.menstrual-para{
-    font-family:"ubuntu";
-    font-size:1.7em;
-    text-align:justify;
-    margin:5% 10% 0;
-    position:absolute;
-    width:750px;
-
-}
-.menstrual-para2{
-    font-family:"ubuntu",sans-serif;
-    font-size:1.7em;
-    text-align:justify;
-    margin:25% 9.6% 0;
-    position:absolute;
-    width:80%;
-
-}
-.menstrual-para2-items{
-    font-family:"ubuntu",sans-serif;
-    font-size:1.7em;
-    text-align:justify;
-    margin:31% 9.6% 0;
-    position:absolute;
-    width:80%;
-}
-.menstrual-para3{
-    font-family:"ubuntu",sans-serif;
-    font-size:1.7em;
-    text-align:justify;
-    margin:75% 9.6% 0;
-    position:absolute;
-    width:45%;
-}
-/*pyschological distress*/
-.psy-para{
-    font-family:"ubuntu";
-    font-size:1.7em;
-    text-align:justify;
-    margin:1% 10% 0;
-    position:absolute;
-    width:750px;
-}
-.psy-para2{
-    font-family:"ubuntu",sans-serif;
-    font-size:1.7em;
-    text-align:justify;
-    margin:25% 9.6% 0;
-    position:absolute;
-    width:80%;
-}
-.psy-para2-items{
-    font-family:"ubuntu",sans-serif;
-    font-size:1.7em;
-    text-align:justify;
-    margin:35% 9.6% 0;
-    position:absolute;
-    width:80%;
-}
-/*sexual education*/
-.sex-ed-para{
-    font-family:"ubuntu";
-    font-size:1.7em;
-    text-align:justify;
-    margin:1% 10% 0;
-    position:absolute;
-    width:750px;
-}
-.sex-ed-para2{
-    font-family:"ubuntu",sans-serif;
-    font-size:1.7em;
-    text-align:justify;
-    margin:18% 9.6% 0;
-    position:absolute;
-    width:80%;
-}
-.sex-ed-para2-items{
-    font-family:"ubuntu",sans-serif;
-    font-size:1.7em;
-    text-align:justify;
-    margin:31.5% 9.6% 0;
-    position:absolute;
-    width:80%;
-}
-.sex-ed-para3{
-    font-family:"ubuntu",sans-serif;
-    font-size:1.7em;
-    text-align:justify;
-    margin:80% 9.6% 0;
-    position:absolute;
-    width:80%;
-}
-.sex-ed-para3-items{
-    font-family:"ubuntu",sans-serif;
-    font-size:1.7em;
-    text-align:justify;
-    margin:88% 9.6% 0;
-    padding-bottom:35px;
-    position:absolute;
-    width:80%;
-}
-/*image*/
-.body-image{
-    width:750px;
-    margin:5% -12% auto;
-    position:absolute;
-    rotate:-19deg;
-}
-.menstrualcycle{
-    margin:1% 15% 0;
-    position:absolute;
-    width:350px;
-    
-}
-.menstruation-calendar{
-    margin:78% 65% 0;
-    position:absolute;
-    width:350px;
-}
-.psy-image{
-    
-    border-radius:50%;
-    margin-left:15%;
-    position:absolute;
-    width:350px;
-}
-.sex-ed-image{
-    border-radius:3%;
-    margin-left:15%;
-    position:absolute;
-    width:350px;
-
-}
-@media only screen and (max-width:1125px) {
-    h1{
-        margin-top:7%
+    body{
+        background-color:#E96479;
+        position:relative;
+        
     }
+    h1{
+        font-size:5rem;
+        font-family: 'Rouge Script', cursive;
+        margin-top:5%;
+        text-align:center;
+    }
+    
+    
+    /*buttons*/
+    .Carousel-btn{
+        background-color:#D61355;
+        border:none;
+        border-radius:3px;
+        cursor:pointer;
+        display:inline-block;
+        font-size:17px;
+        margin-left:42%;
+        padding:16px;
+        position:relative;
+        transition: all 0.5s;
+        text-align: center;
+        width:250px;
+    }
+    .Carousel-btn span{
+        color:#FFC3A1;
+        cursor:pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+    }
+    .Carousel-btn span:after{
+        content: '»';
+        position: absolute;
+        opacity: 0;
+        top: -1.5px;
+        right: -15px;
+        transition: 0.5s;
+    }
+    .Carousel-btn:hover span{
+        padding-right:20px;
+    }
+    .Carousel-btn:hover span::after{
+        opacity: 1.5;
+        right:0;
+    }
+    
+    
+    .Intro{
+        position:relative;
+    }
+    .Health-Header{
+        margin-left:5%
+    }
+    
+    .Health-intro{
+        position:relative;
+    }
+    .Health-intro-image{
+        position:absolute;
+        padding-left:29%;
+    }
+    .Health-intro-p{
+        color:#FEFBE9;
+        font-family: 'Ubuntu', 'Sans-serif';
+        font-size:30px;
+        margin:25% 26% 0;
+        position:absolute;
+        text-align:Justify;
+        width:50%;    
+    }
+    /* Subtabs coursel*/
+    #Women-health-subtabs{
+        margin:45% -5%;
+        position:absolute;
+        width:109%;
+    }
+    .Carousel-image{
+        padding-left:44%;
+        height:200px;
+    }
+    .Carousel-p{
+        color:#FEFBE9;
+        font-family: 'Ubuntu', 'Sans-serif';
+        font-size:25px;
+        text-align:justify;
+        margin:1% 20%;
+        width:60%;
+    }
+    /*Menstrual cycle*/
     .menstrual-para{
         font-family:"ubuntu";
         font-size:1.7em;
         text-align:justify;
-        margin:35% 12% 0;
+        margin:5% 10% 0;
         position:absolute;
         width:750px;
     
-        
+    }
+    .menstrual-para2{
+        font-family:"ubuntu",sans-serif;
+        font-size:1.7em;
+        text-align:justify;
+        margin:25% 9.6% 0;
+        position:absolute;
+        width:80%;
+    
+    }
+    .menstrual-para2-items{
+        font-family:"ubuntu",sans-serif;
+        font-size:1.7em;
+        text-align:justify;
+        margin:31% 9.6% 0;
+        position:absolute;
+        width:80%;
+    }
+    .menstrual-para3{
+        font-family:"ubuntu",sans-serif;
+        font-size:1.7em;
+        text-align:justify;
+        margin:75% 9.6% 0;
+        position:absolute;
+        width:45%;
+    }
+    /*pyschological distress*/
+    .psy-para{
+        font-family:"ubuntu";
+        font-size:1.7em;
+        text-align:justify;
+        margin:1% 10% 0;
+        position:absolute;
+        width:750px;
+    }
+    .psy-para2{
+        font-family:"ubuntu",sans-serif;
+        font-size:1.7em;
+        text-align:justify;
+        margin:25% 9.6% 0;
+        position:absolute;
+        width:80%;
+    }
+    .psy-para2-items{
+        font-family:"ubuntu",sans-serif;
+        font-size:1.7em;
+        text-align:justify;
+        margin:35% 9.6% 0;
+        position:absolute;
+        width:80%;
+    }
+    /*sexual education*/
+    .sex-ed-para{
+        font-family:"ubuntu";
+        font-size:1.7em;
+        text-align:justify;
+        margin:1% 10% 0;
+        position:absolute;
+        width:750px;
+    }
+    .sex-ed-para2{
+        font-family:"ubuntu",sans-serif;
+        font-size:1.7em;
+        text-align:justify;
+        margin:18% 9.6% 0;
+        position:absolute;
+        width:80%;
+    }
+    .sex-ed-para2-items{
+        font-family:"ubuntu",sans-serif;
+        font-size:1.7em;
+        text-align:justify;
+        margin:31.5% 9.6% 0;
+        position:absolute;
+        width:80%;
+    }
+    .sex-ed-para3{
+        font-family:"ubuntu",sans-serif;
+        font-size:1.7em;
+        text-align:justify;
+        margin:80% 9.6% 0;
+        position:absolute;
+        width:80%;
+    }
+    .sex-ed-para3-items{
+        font-family:"ubuntu",sans-serif;
+        font-size:1.7em;
+        text-align:justify;
+        margin:88% 9.6% 0;
+        padding-bottom:35px;
+        position:absolute;
+        width:80%;
+    }
+    /*image*/
+    .body-image{
+        width:750px;
+        margin:5% -12% auto;
+        position:absolute;
+        rotate:-19deg;
     }
     .menstrualcycle{
-        margin:5% -15% 0;
-        width:250px;
+        margin:1% 15% 0;
+        position:absolute;
+        width:350px;
+        
+    }
+    .menstruation-calendar{
+        margin:78% 65% 0;
+        position:absolute;
+        width:350px;
+    }
+    .psy-image{
+        
+        border-radius:50%;
+        margin-left:15%;
+        position:absolute;
+        width:350px;
+    }
+    .sex-ed-image{
+        border-radius:3%;
+        margin-left:12%;
+        position:absolute;
+        width:400px;
+    
+    }
+@media screen and (max-device-width:1220px){
+    body{
+        background-color:#E96479;
+        position:relative;
+        
+    }
+    h1{
+        font-size:5rem;
+        font-family: 'Rouge Script', cursive;
+        margin-top:8%;
+        text-align:center;
     }
     
+    
+    /*buttons*/
+    .Carousel-btn{
+        background-color:#D61355;
+        border:none;
+        border-radius:3px;
+        cursor:pointer;
+        display:inline-block;
+        font-size:17px;
+        margin-left:42%;
+        padding:16px;
+        position:relative;
+        transition: all 0.5s;
+        text-align: center;
+        width:250px;
+    }
+    .Carousel-btn span{
+        color:#FFC3A1;
+        cursor:pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+    }
+    .Carousel-btn span:after{
+        content: '»';
+        position: absolute;
+        opacity: 0;
+        top: -1.5px;
+        right: -15px;
+        transition: 0.5s;
+    }
+    .Carousel-btn:hover span{
+        padding-right:20px;
+    }
+    .Carousel-btn:hover span::after{
+        opacity: 1.5;
+        right:0;
+    }
+    
+    
+    .Intro{
+        position:relative;
+    }
+    .Health-Header{
+        margin-left:5%
+    }
+    
+    .Health-intro{
+        position:relative;
+    }
+    .Health-intro-image{
+        position:absolute;
+        padding-left:19%;
+    }
+    .Health-intro-p{
+        color:#FEFBE9;
+        font-family: 'Ubuntu', 'Sans-serif';
+        font-size:30px;
+        margin:37% 26% 0;
+        position:absolute;
+        text-align:Justify;
+        width:50%;    
+    }
+    /* Subtabs coursel*/
+    #Women-health-subtabs{
+        margin:75% -5%;
+        position:absolute;
+        width:109%;
+    }
+    .Carousel-image{
+        padding-left:44%;
+        height:200px;
+    }
+    .Carousel-p{
+        color:#FEFBE9;
+        font-family: 'Ubuntu', 'Sans-serif';
+        font-size:25px;
+        text-align:justify;
+        margin:1% 20%;
+        width:60%;
+    }
+    /*Menstrual cycle*/
+    .menstrual-para{
+        font-family:"ubuntu";
+        font-size:1.7em;
+        text-align:justify;
+        margin:5% 7% 0;
+        position:absolute;
+        width:700px;
+    
+    }
+    .menstrual-para2{
+        font-family:"ubuntu",sans-serif;
+        font-size:1.7em;
+        text-align:justify;
+        margin:27% 7% 0;
+        position:absolute;
+        width:80%;
+    
+    }
+    .menstrual-para2-items{
+        font-family:"ubuntu",sans-serif;
+        font-size:1.7em;
+        text-align:justify;
+        margin:35% 7% 0;
+        position:absolute;
+        width:80%;
+    }
+    .menstrual-para3{
+        font-family:"ubuntu",sans-serif;
+        font-size:1.7em;
+        text-align:justify;
+        margin:95% 7% 0;
+        position:absolute;
+        width:45%;
+    }
+    /*pyschological distress*/
+    .psy-para{
+        font-family:"ubuntu";
+        font-size:1.4em;
+        text-align:justify;
+        margin:1% 5% 0;
+        position:absolute;
+        width:550px;
+    }
+    .psy-para2{
+        font-family:"ubuntu",sans-serif;
+        font-size:1.4em;
+        text-align:justify;
+        margin:32% 5% 0;
+        position:absolute;
+        width:80%;
+    }
+    .psy-para2-items{
+        font-family:"ubuntu",sans-serif;
+        font-size:1.4em;
+        text-align:justify;
+        margin:42% 5% 0;
+        position:absolute;
+        width:80%;
+    }
+    /*sexual education*/
+    .sex-ed-para{
+        font-family:"ubuntu";
+        font-size:1.7em;
+        text-align:justify;
+        margin:1% 7% 0;
+        position:absolute;
+        width:550px;
+    }
+    .sex-ed-para2{
+        font-family:"ubuntu",sans-serif;
+        font-size:1.7em;
+        text-align:justify;
+        margin:28% 7% 0;
+        padding-top:2%;
+        position:absolute;
+        width:85%;
+    }
+    .sex-ed-para2-items{
+        font-family:"ubuntu",sans-serif;
+        font-size:1.7em;
+        text-align:justify;
+        margin:60% 7% 0;
+        position:absolute;
+        width:85%;
+    }
+    .sex-ed-para3{
+        font-family:"ubuntu",sans-serif;
+        font-size:1.7em;
+        text-align:justify;
+        margin:90% 7% 0;
+        padding-top:60%;
+        position:absolute;
+        width:85%;
+    }
+    .sex-ed-para3-items{
+        font-family:"ubuntu",sans-serif;
+        font-size:1.7em;
+        text-align:justify;
+        margin:115% 7% 0;
+        padding-top:53.5%;
+        padding-bottom:35px;
+        position:absolute;
+        width:85%;
+    }
+    /*image*/
+    .body-image{
+        width:750px;
+        margin:5% -12% auto;
+        position:absolute;
+        rotate:-19deg;
+    }
+    .menstrualcycle{
+        margin:1% 18% 0;
+        position:absolute;
+        width:300px;
+        
+    }
+    .menstruation-calendar{
+        margin:85% 65% 0;
+        padding-top:25%;
+        position:absolute;
+        width:350px;
+    }
+    .psy-image{
+        
+        border-radius:50%;
+        margin-left:10%;
+        position:absolute;
+        width:300px;
+    }
+    .sex-ed-image{
+        border-radius:5%;
+        margin:1% 12% 0;
+        position:absolute;
+        width:350px;
+    
+    }
+}
+@media screen and (max-device-width:870px){
+    body{
+        background-color:#E96479;
+        position:relative;
+        
+    }
+    h1{
+        font-size:5rem;
+        font-family: 'Rouge Script', cursive;
+        margin-top:8%;
+        text-align:center;
+    }
+    
+    
+    /*buttons*/
+    .Carousel-btn{
+        background-color:#D61355;
+        border:none;
+        border-radius:3px;
+        cursor:pointer;
+        display:inline-block;
+        font-size:17px;
+        margin-left:42%;
+        padding:16px;
+        position:relative;
+        transition: all 0.5s;
+        text-align: center;
+        width:250px;
+    }
+    .Carousel-btn span{
+        color:#FFC3A1;
+        cursor:pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+    }
+    .Carousel-btn span:after{
+        content: '»';
+        position: absolute;
+        opacity: 0;
+        top: -1.5px;
+        right: -15px;
+        transition: 0.5s;
+    }
+    .Carousel-btn:hover span{
+        padding-right:20px;
+    }
+    .Carousel-btn:hover span::after{
+        opacity: 1.5;
+        right:0;
+    }
+    
+    
+    .Intro{
+        position:relative;
+    }
+    .Health-Header{
+        margin-left:5%
+    }
+    
+    .Health-intro{
+        position:relative;
+    }
+    .Health-intro-image{
+        position:absolute;
+        padding-left:19%;
+    }
+    .Health-intro-p{
+        color:#FEFBE9;
+        font-family: 'Ubuntu', 'Sans-serif';
+        font-size:30px;
+        margin:38% 26% 0;
+        position:absolute;
+        text-align:Justify;
+        width:50%;    
+    }
+    /* Subtabs coursel*/
+    #Women-health-subtabs{
+        margin:80% -5%;
+        position:absolute;
+        width:109%;
+    }
+    .Carousel-image{
+        padding-left:44%;
+        height:200px;
+    }
+    .Carousel-p{
+        color:#FEFBE9;
+        font-family: 'Ubuntu', 'Sans-serif';
+        font-size:25px;
+        text-align:justify;
+        margin:1% 20%;
+        width:60%;
+    }
+    /*Menstrual cycle*/
+    .menstrual-para{
+        font-family:"ubuntu";
+        font-size:1.7em;
+        text-align:justify;
+        margin:35% 7% 0;
+        position:absolute;
+        width:800px;
+    
+    }
+    .menstrual-para2{
+        font-family:"ubuntu",sans-serif;
+        font-size:1.7em;
+        text-align:justify;
+        margin:58% 7% 0;
+        position:absolute;
+        width:80%;
+    
+    }
+    .menstrual-para2-items{
+        font-family:"ubuntu",sans-serif;
+        font-size:1.7em;
+        text-align:justify;
+        margin:70% 7% 0;
+        position:absolute;
+        width:80%;
+    }
+    .menstrual-para3{
+        font-family:"ubuntu",sans-serif;
+        font-size:1.7em;
+        text-align:justify;
+        margin:90% 7% 0;
+        padding-top:65%;
+        position:absolute;
+        width:45%;
+    }
+    /*pyschological distress*/
+    .psy-para{
+        font-family:"ubuntu";
+        font-size:1.7em;
+        text-align:justify;
+        margin:38% 10% 0;
+        position:absolute;
+        width:750px;
+    }
+    .psy-para2{
+        font-family:"ubuntu",sans-serif;
+        font-size:1.7em;
+        text-align:justify;
+        margin:72% 9.6% 0;
+        position:absolute;
+        width:80%;
+    }
+    .psy-para2-items{
+        font-family:"ubuntu",sans-serif;
+        font-size:1.7em;
+        text-align:justify;
+        margin:90% 9.6% 0;
+        position:absolute;
+        width:80%;
+    }
+    /*sexual education*/
+    .sex-ed-para{
+        font-family:"ubuntu";
+        font-size:1.7em;
+        text-align:justify;
+        margin:40% 10% 0;
+        position:absolute;
+        width:80%;
+    }
+    .sex-ed-para2{
+        font-family:"ubuntu",sans-serif;
+        font-size:1.7em;
+        text-align:justify;
+        margin:60% 9.6% 0;
+        position:absolute;
+        width:80%;
+    }
+    .sex-ed-para2-items{
+        font-family:"ubuntu",sans-serif;
+        font-size:1.7em;
+        text-align:justify;
+        margin:60% 9.6% 0;
+        padding-top:35%;
+        position:absolute;
+        width:80%;
+    }
+    .sex-ed-para3{
+        font-family:"ubuntu",sans-serif;
+        font-size:1.7em;
+        text-align:justify;
+        margin:93% 9.6% 0;
+        padding-top:105%;
+        position:absolute;
+        width:80%;
+    }
+    .sex-ed-para3-items{
+        font-family:"ubuntu",sans-serif;
+        font-size:1.7em;
+        text-align:justify;
+        margin:100% 9.6% 0;
+        padding-top:120%;
+        padding-bottom:35px;
+        position:absolute;
+        width:80%;
+    }
+    /*image*/
+    .body-image{
+        width:750px;
+        margin:5% -40% auto;
+        position:absolute;
+        rotate:-19deg;
+    }
+    .menstrualcycle{
+        margin:1% 18% 0;
+        padding-left:15%;
+        position:absolute;
+        width:450px;
+        
+    }
+    .menstruation-calendar{
+        margin:90% 60% 0;
+        padding-top:84%;
+        position:absolute;
+        width:350px;
+    }
+    .psy-image{
+        
+        border-radius:50%;
+        margin-left:30%;
+        position:absolute;
+        width:350px;
+    }
+    .sex-ed-image{
+        border-radius:3%;
+        margin-left:21%;
+        position:absolute;
+        width:550px;
+    
+    }
 }
