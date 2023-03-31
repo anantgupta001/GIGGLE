@@ -1,4 +1,4 @@
-<h1>GIGGLES</h1>
+<img src="https://www.linkpicture.com/q/16x8-giggle-png-01.png" alt="Giggles" />
 
 <h3>WE Giggle is a non-profit organization dedicated to empowering women and helping them reach their full potential. Our programs and services are designed to provide women with the tools and resources they need to succeed in all aspects of their lives.</h3>
 
